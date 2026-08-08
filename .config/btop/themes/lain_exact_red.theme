@@ -1,0 +1,55 @@
+# Theme: Exact Red/Magenta Theme for btop matching borders
+# Main background (Pure dark)
+theme[main_bg]="#0a0a0c"
+
+# Main text color (Bright Red/Magenta accent)
+theme[main_fg]="#ff3366"
+
+# Title color for boxes (Matching exact border red/magenta)
+theme[title]="#ff2a6d"
+
+# Highlight color
+theme[hi_fg]="#ff2a6d"
+
+# Background color of selected item
+theme[selected_bg]="#3d0f21"
+
+# Foreground color of selected item
+theme[selected_fg]="#ffffff"
+
+# Color of inactive/disabled text
+theme[inactive_fg]="#5e2237"
+
+# Color of bar graphs and meters
+theme[meter_bg]="#1f0811"
+theme[proc_misc]="#ff2a6d"
+
+# CPU/Memory/Network gradients (True Red to Magenta to match borders)
+theme[cpu_start]="#ff758c"
+theme[cpu_mid]="#ff2a6d"
+theme[cpu_end]="#d10034"
+
+theme[free_start]="#ff758c"
+theme[free_mid]="#ff2a6d"
+theme[free_end]="#d10034"
+
+theme[cached_start]="#ff758c"
+theme[cached_mid]="#ff2a6d"
+theme[cached_end]="#d10034"
+
+theme[available_start]="#ff758c"
+theme[available_mid]="#ff2a6d"
+theme[available_end]="#d10034"
+
+theme[used_start]="#ff758c"
+theme[used_mid]="#ff2a6d"
+theme[used_end]="#d10034"
+
+# Download / Upload graphs
+theme[download_start]="#ff758c"
+theme[download_mid]="#ff2a6d"
+theme[download_end]="#d10034"
+
+theme[upload_start]="#ff758c"
+theme[upload_mid]="#ff2a6d"
+theme[upload_end]="#d10034"

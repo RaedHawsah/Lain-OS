@@ -1,0 +1,8 @@
+antigravity-ide
+clion
+clion-cmake
+clion-gdb
+clion-jre
+clion-lldb
+gtk-engine-murrine
+ttf-victor-mono

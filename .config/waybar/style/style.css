@@ -1,0 +1,11 @@
+window#waybar {
+    background-color: rgba(30, 30, 46, 0.85); /* لون Catppuccin الأساسي مع شفافية */
+    border-radius: 15px; /* حواف دائرية ناعمة */
+    margin: 10px 15px 0px 15px; /* هوامش عشان يفصل عن حافة الشاشة */
+}
+
+* {
+    font-family: "JetBrainsMono Nerd Font", "Font Awesome 6 Free";
+    font-size: 14px;
+    font-weight: bold;
+}

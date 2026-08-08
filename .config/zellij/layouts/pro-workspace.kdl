@@ -1,0 +1,17 @@
+layout {
+    pane size=1 borderless=true {
+        plugin location="zellij:tab-bar"
+    }
+    pane split_direction="vertical" {
+        pane name="Code / Reverse Engineering" focus=true size="65%" {
+            // هنا تقدر تفتح antigravity-ide أو Ghidra
+        }
+        pane split_direction="horizontal" size="35%" {
+            pane name="Server / GDB" 
+            pane name="Terminal (Git / Utils)" 
+        }
+    }
+    pane size=2 borderless=true {
+        plugin location="zellij:status-bar"
+    }
+}

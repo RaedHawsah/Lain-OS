@@ -1,0 +1,63 @@
+# Theme: Full Theme Match with Red/Magenta Highlights for btop
+# Main background and text
+theme[main_bg]="#181418"
+theme[main_fg]="#e599b4"
+
+# Title and highlights
+theme[title]="#e599b4"
+theme[hi_fg]="#e599b4"
+
+# Selected items
+theme[selected_bg]="#422131"
+theme[selected_fg]="#ffffff"
+
+# Inactive elements
+theme[inactive_fg]="#663b4f"
+
+# Meters and miscellaneous process info
+theme[meter_bg]="#24111c"
+theme[proc_misc]="#e599b4"
+
+# CPU graph colors
+theme[cpu_start]="#e599b4"
+theme[cpu_mid]="#cc6688"
+theme[cpu_end]="#993355"
+
+# Memory free colors
+theme[free_start]="#e599b4"
+theme[free_mid]="#cc6688"
+theme[free_end]="#993355"
+
+# Memory cached colors
+theme[cached_start]="#e599b4"
+theme[cached_mid]="#cc6688"
+theme[cached_end]="#993355"
+
+# Memory available colors
+theme[available_start]="#e599b4"
+theme[available_mid]="#cc6688"
+theme[available_end]="#993355"
+
+# Memory used colors
+theme[used_start]="#e599b4"
+theme[used_mid]="#cc6688"
+theme[used_end]="#993355"
+
+# Download graph colors
+theme[download_start]="#e599b4"
+theme[download_mid]="#cc6688"
+theme[download_end]="#993355"
+
+# Upload graph colors
+theme[upload_start]="#e599b4"
+theme[upload_mid]="#cc6688"
+theme[upload_end]="#993355"
+
+# Box borders and Important/Red elements matching your theme's red/magenta
+theme[proc_box]="#e599b4"
+theme[cpu_box]="#e599b4"
+theme[mem_box]="#e599b4"
+theme[net_box]="#e599b4"
+theme[proc_good]="#e599b4"
+theme[proc_warn]="#e599b4"
+theme[proc_bad]="#993355"
