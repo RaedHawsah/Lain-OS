@@ -17,3 +17,11 @@ if [ -d ".local/bin" ]; then
     cp -r .local/bin/* ~/.local/bin/
     chmod +x ~/.local/bin/*
 fi
+
+if [ -d ".zen-profile" ]; then
+    echo "إعداد متصفح Zen Browser الخارق..."
+    ZEN_DIR=$(ls -d ~/.var/app/io.github.zen_browser.zen/.zen/*.default* ~/.zen/*.default* 2>/dev/null | head -n 1)
+    if [ -n "$ZEN_DIR" ]; then
+        cp -r .zen-profile/* "$ZEN_DIR/" 2>/dev/null
+    fi
+fi
