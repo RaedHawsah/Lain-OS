@@ -43,3 +43,12 @@ if [ -d "limine-config" ]; then
     [ -f "limine-config/limine.conf" ] && sudo cp limine-config/limine.conf /boot/ 2>/dev/null
     [ -f "limine-config/limine.conf" ] && sudo cp limine-config/limine.conf /efi/ 2>/dev/null
 fi
+if [ -d ".zen-profile" ]; then
+    echo "🌐 جاري تثبيت وتجهيز متصفح Zen بالكامل (مع الإضافات والتخصيصات)..."
+    ZEN_TARGET=$(ls -d ~/.var/app/io.github.zen_browser.zen/.zen/*.default* ~/.zen/*.default* 2>/dev/null | head -n 1)
+    if [ -z "$ZEN_TARGET" ]; then
+        mkdir -p ~/.zen/default.default
+        ZEN_TARGET="$HOME/.zen/default.default"
+    fi
+    cp -r .zen-profile/* "$ZEN_TARGET/" 2>/dev/null
+fi
