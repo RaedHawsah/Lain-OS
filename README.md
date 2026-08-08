@@ -1,14 +1,15 @@
-# 🌸 Lain-Linux-Rice (CachyOS Edition)
+# Lain-OS: Serial Experiments Lain Rice for CachyOS
 
-## 🚀 Installation
-\`\`\`bash
-git clone https://github.com/YOUR_USERNAME/Lain-OS.git
-cd Lain-OS
-./install.sh
-\`\`\`
+## Fast One-Liner Install
+git clone https://github.com/RaedHawsah/Lain-OS.git ~/Lain-OS && cd ~/Lain-OS && chmod +x install.sh && ./install.sh
 
-## 🛠️ Troubleshooting
+## System Components
+- Window Manager: Hyprland
+- Terminal: Kitty
+- Multiplexer: Zellij
+- Launchers & Bars: Waybar, Rofi, Wofi, Dunst
 
-### Black Screen Fix:
-\`sudo mkinitcpio -P\`
-\`sudo grub-mkconfig -o /boot/grub/grub.cfg\`
+## Troubleshooting
+Black Screen Fix:
+sudo mkinitcpio -P
+sudo grub-mkconfig -o /boot/grub/grub.cfg
