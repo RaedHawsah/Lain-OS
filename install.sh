@@ -35,3 +35,11 @@ fi
 
 fc-cache -fv
 echo "✅ تم تثبيت كل شيء بنجاح! استمتع بنظامك الخارق."
+
+if [ -d "limine-config" ]; then
+    echo "⚡ ضبط وتثبيت تخصيص Limine Bootloader..."
+    sudo cp -r limine-config/limine /boot/ 2>/dev/null
+    sudo cp -r limine-config/limine /efi/ 2>/dev/null
+    [ -f "limine-config/limine.conf" ] && sudo cp limine-config/limine.conf /boot/ 2>/dev/null
+    [ -f "limine-config/limine.conf" ] && sudo cp limine-config/limine.conf /efi/ 2>/dev/null
+fi
