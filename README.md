@@ -9,8 +9,8 @@ git clone [https://github.com/RaedHawsah/Lain-OS.git](https://github.com/RaedHaw
 - Window Manager: Hyprland
 - Terminal: Kitty
 - Multiplexer: Zellij
-- Browser: Zen Browser (with custom rice)
-- Bootloader: Limine (themed)
+- Browser: Zen Browser (Full profile with extensions & ricing)
+- Bootloader: Limine (Themed)
 - Launchers & Bars: Waybar, Rofi, Wofi, Dunst
 
 ## Troubleshooting
