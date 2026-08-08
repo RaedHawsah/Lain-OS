@@ -10,3 +10,10 @@ cp -r wallpapers/* ~/Pictures/Wallpapers/ 2>/dev/null
 [ -d .icons ] && cp -r .icons ~/
 [ -d .themes ] && cp -r .themes ~/
 fc-cache -fv
+
+# نسخ السكربتات الإضافية
+if [ -d ".local/bin" ]; then
+    mkdir -p ~/.local/bin
+    cp -r .local/bin/* ~/.local/bin/
+    chmod +x ~/.local/bin/*
+fi

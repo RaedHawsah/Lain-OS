@@ -1,0 +1,109 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+# --- [ EXACT THEME PALETTE ONLY - 4 COLORS REPEATED ] ---
+
+format = """
+[](#3A222B)\
+$username\
+[](bg:#8A4B62 fg:#3A222B)\
+$directory\
+[](fg:#8A4B62 bg:#F2A3B3)\
+$git_branch\
+$git_status\
+[](fg:#F2A3B3 bg:#F5E0DC)\
+$c\
+$cpp\
+$elixir\
+$elm\
+$golang\
+$gradle\
+$haskell\
+$java\
+$julia\
+$maven\
+$nodejs\
+$bun\
+$nim\
+$rust\
+$scala\
+[](fg:#F5E0DC bg:#8A4B62)\
+$docker_context\
+[](fg:#8A4B62 bg:#3A222B)\
+$time\
+[ ](fg:#3A222B)\
+"""
+
+# --- [ 1. USERNAME ] ---
+[username]
+show_always = true
+style_user = "bg:#3A222B fg:#F5E0DC bold"
+style_root = "bg:#3A222B fg:#F5E0DC bold"
+format = '[ 🇷🇺 $user ]($style)'
+disabled = false
+
+# --- [ 2. DIRECTORY ] ---
+[directory]
+style = "bg:#8A4B62 fg:#F5E0DC bold"
+format = "[ $path ]($style)"
+truncation_length = 3
+truncation_symbol = "…/"
+
+[directory.substitutions]
+"Documents" = "󰈙 "
+"Downloads" = " "
+"Music" = " "
+"Pictures" = " "
+
+# --- [ 3. GIT MODULES ] ---
+[git_branch]
+symbol = ""
+style = "bg:#F2A3B3 fg:#3A222B bold"
+format = '[ $symbol $branch ]($style)'
+
+[git_status]
+style = "bg:#F2A3B3 fg:#3A222B bold"
+format = '[$all_status$ahead_behind ]($style)'
+
+# --- [ 4. LANGUAGES & TOOLS ] ---
+[c]
+symbol = " "
+style = "bg:#F5E0DC fg:#3A222B bold"
+format = '[ $symbol ($version) ]($style)'
+
+[cpp]
+symbol = " "
+style = "bg:#F5E0DC fg:#3A222B bold"
+format = '[ $symbol ($version) ]($style)'
+
+[golang]
+symbol = " "
+style = "bg:#F5E0DC fg:#3A222B bold"
+format = '[ $symbol ($version) ]($style)'
+
+[nodejs]
+symbol = ""
+style = "bg:#F5E0DC fg:#3A222B bold"
+format = '[ $symbol ($version) ]($style)'
+
+[rust]
+symbol = ""
+style = "bg:#F5E0DC fg:#3A222B bold"
+format = '[ $symbol ($version) ]($style)'
+
+[bun]
+symbol = ""
+style = "bg:#F5E0DC fg:#3A222B bold"
+format = '[ $symbol ($version) ]($style)'
+
+# --- [ 5. DOCKER ] ---
+[docker_context]
+symbol = " "
+style = "bg:#8A4B62 fg:#F5E0DC bold"
+format = '[ $symbol $context ]($style)'
+
+# --- [ 6. TIME ] ---
+[time]
+disabled = false
+time_format = "%R"
+style = "bg:#3A222B fg:#F2A3B3 bold"
+format = '[  $time ]($style)'
