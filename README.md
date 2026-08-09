@@ -18,7 +18,9 @@
 ## 📸 معاينة الثيم (Preview)
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/RaedHawsah/Lain-OS/main/assets/prev.png" alt="Lain Linux Rice Preview" width="100%">
+  <img src="https://raw.githubusercontent.com/RaedHawsah/Lain-OS/main/assets/prev.png" alt="Lain Linux Rice Preview 1" width="100%">
+  <br><br>
+  <img src="https://raw.githubusercontent.com/RaedHawsah/Lain-OS/main/assets/prev2.png" alt="Lain Linux Rice Preview 2" width="100%">
   <p><em>نظرة على سطح مكتب CachyOS بثيم Lain والطرفية Kitty ومقسم الشاشات Zellij</em></p>
 </div>
 
