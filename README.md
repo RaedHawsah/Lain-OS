@@ -15,15 +15,6 @@
 
 ---
 
-## 🚀 طريقة التثبيت (Installation)
-
-### ⚡ التثبيت الفوري (أمر سطر واحد)
-يمكنك تثبيت الثيم وإعداده كاملاً بضغطة واحدة عبر تنفيذ الأمر التالي في الطرفية:
-
-```bash
-bash -c "$(curl -fsSL [https://raw.githubusercontent.com/RaedHawsah/Lain-OS/main/install.sh](https://raw.githubusercontent.com/RaedHawsah/Lain-OS/main/install.sh))"
-
----
 ## 📸 معاينة الثيم (Preview)
 
 <div align="center">
@@ -32,3 +23,10 @@ bash -c "$(curl -fsSL [https://raw.githubusercontent.com/RaedHawsah/Lain-OS/main
 </div>
 
 ---
+
+## ⚡ التثبيت الفوري السريع (Quick One-Liner)
+
+> 💡 **طريقة التثبيت الأسهل والأسرع:** انسخ الأمر أدناه وشغله مباشرة في الطرفية لتثبيت الثيم وإعداده كاملاً بضغطة زر واحدة:
+
+```bash
+bash -c "$(curl -fsSL [https://raw.githubusercontent.com/RaedHawsah/Lain-OS/main/install.sh](https://raw.githubusercontent.com/RaedHawsah/Lain-OS/main/install.sh))"
