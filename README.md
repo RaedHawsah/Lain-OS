@@ -17,11 +17,9 @@
 
 ## 📸 معاينة الثيم (Preview)
 
-```bash
-+-------------------------------------------------------+
-|  [ Kitty Terminal ]            [ Zellij Sessions ]    |
-|  root@cachyos:~# neofetch     +---------------------+ |
-|  OS: CachyOS x86_64           | Pane 1  | Pane 2    | |
-|  Theme: Lain Violet           |         |           | |
-|  Font: JetBrainsMono Nerd     +---------------------+ |
-+-------------------------------------------------------+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/RaedHawsah/Lain-OS/main/assets/prev.png" alt="Lain Linux Rice Preview" width="100%">
+  <p><em>نظرة على سطح مكتب CachyOS بثيم Lain والطرفية Kitty ومقسم الشاشات Zellij</em></p>
+</div>
+
+---
